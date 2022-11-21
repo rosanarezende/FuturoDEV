@@ -28,12 +28,17 @@ header {
 
 #cabecalho-imagens-videos{
   background-color: #00FF00;
+  height: 100px;
+}
+
+
+#cabecalho-imagens-videos img{
+  height: 80px;
 }
 
 header img {
   height: 30px;
 }
-
 header ul {
   width: 20vw;
   display: flex;
@@ -59,11 +64,19 @@ main {
 }
 
 h1 {
+  margin-top: 30px;
+  height: 60px;
+  
   font-size: 20px;
-  color: brown;
+  color: white;
   text-align: center;
-  background: url("https://image.freepik.com/free-photo/hand-painted-watercolor-background-with-sky-clouds-shape_24972-1095.jpg") no-repeat;
+
+  background: url("https://miro.medium.com/max/1140/1*jnhgiJ5Z16elapyBhf4-9Q.jpeg") no-repeat;
   background-size: cover;
+}
+
+#titulo-imagens-videos{
+  margin-top: 80px;
 }
 
 p {
@@ -78,6 +91,14 @@ form{
   background-color: #FFC0CB;
   width: 100%;
   height: 100%;  
+
+  padding: 50px;
+
+  input{
+    width: 100%;
+    height: 30px;
+    margin-bottom: 10px;
+  }
 }
 
 
@@ -86,7 +107,7 @@ form{
   flex-direction: column;
   align-items: center;
   
-  gap: 10px
+  gap: 30px
   margin: 20px;
   
   h2{
@@ -106,7 +127,8 @@ button {
 
 
 #imagens {
-  height: 90vh;
+  height: 50vh;
+  margin: 20px;
   
   display: flex;
   justify-content: space-around;
