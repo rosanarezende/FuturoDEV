@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+    integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+  <!-- <link rel="stylesheet" href="style.css"> -->
+  <title>FuturoDEV</title>
+</head>
+
+<body>
+  <header class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <!-- fixar no topo: fixed-top -->
+    <!-- nav-bar com estilos escuros (ex: coloca letra preta):  navbar-dark-->
+    <!-- background preto bg-dark -->
+    <!-- estilizações diferentes, exemplo  style="background-color: red;" - e re,ove a propriedade correspondente da class, nesse caso bg-dark-->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+      <a class="navbar-brand" href="index.html">
+        <img src="./imagens/logo.jpg" height="40" alt="logo">
+      </a>
+
+      <!-- div no canto direito: justify-content-end -->
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <ul class="navbar-nav">
+          <!-- hover vermelho -->
+          <li class="nav-item">
+            <a href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="imagens-videos.html">Imagens e Vídeos</a>
+          </li>
+          <!-- active -->
+          <li class="nav-item active">
+            <a class="nav-link" href="bootstrap.html">Bootstrap</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+  </header>
+
+  <main class="container p-5 mt-5">
+    <h1 class="mb-3">Home</h1>
+    <h2>Semana 01</h2>
+    <hr/>
+
+    <p class="text-center mb-5">
+      Este é o resultado do primeiro exercício da primeira semana do curso FuturoDEV.
+    </p>
+    <p>
+       Nesta semana aprendi os Fundamentos da Programação WEB: <br />
+    </p>
+    <ol class="list-group list-group-flush list-group-numbered">
+      <li class="list-group-item">Arquitetura WEB</li>
+      <li class="list-group-item">HTML5</li>
+      <li class="list-group-item">CSS3</li>
+      <li class="list-group-item">Bootstrap 4</li>
+    </ol>
+  </main>
+
+  <footer class="page-footer font-small blue">
+    <div class="footer-copyright text-center py-3">© 2022 Copyright:
+      <a href="https://github.com/rosanarezende/FuturoDEV">Rosana Rezende</a>
+    </div>
+  </footer>
+
+  <style>
+    header a:hover {
+      color: red;
+    }
+    .list-group {
+    list-style: decimal inside;
+}
+
+.list-group-item {
+    display: list-item;
+}
+
+  </style>
+</body>
+
+</html>
